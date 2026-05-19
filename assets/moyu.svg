@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" xml:lang="zh-Hans">
+  <defs>
+    <linearGradient id="wave-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="wave-back" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#A5B4FC" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#D8B4FE" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .name {
+      font-family: "Helvetica Neue", "Arial", "PingFang SC", sans-serif;
+      font-size: 72px;
+      font-weight: 700;
+      fill: #ffffff;
+      letter-spacing: 0.05em;
+    }
+    .title {
+      font-family: "KaiTi", "Kaiti SC", "AR PL UKai CN", "Noto Serif SC", "Songti SC", "STKaiti", serif;
+      font-size: 38px;
+      font-weight: 500;
+      fill: #4F46E5;
+      letter-spacing: 0.4em;
+    }
+    .author {
+      font-family: "KaiTi", "Kaiti SC", "AR PL UKai CN", "Noto Serif SC", "Songti SC", serif;
+      font-size: 14px;
+      fill: #94a3b8;
+      letter-spacing: 0.25em;
+    }
+    .verse {
+      font-family: "KaiTi", "Kaiti SC", "AR PL UKai CN", "Noto Serif SC", "Songti SC", serif;
+      font-size: 22px;
+      fill: #334155;
+      letter-spacing: 0.08em;
+    }
+    .line { stroke: #94a3b8; stroke-opacity: 0.4; }
+    .dot { fill: #94a3b8; fill-opacity: 0.5; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #A5B4FC; }
+      .author { fill: #64748B; }
+      .verse { fill: #CBD5E1; }
+      .line { stroke: #475569; stroke-opacity: 0.7; }
+      .dot { fill: #64748B; fill-opacity: 0.8; }
+    }
+  </style>
+
+  <path d="M 0,0 L 1000,0 L 1000,170 Q 875,205 750,180 T 500,180 T 250,180 T 0,170 Z" fill="url(#wave-back)"/>
+  <path d="M 0,0 L 1000,0 L 1000,150 Q 875,185 750,160 T 500,160 T 250,160 T 0,150 Z" fill="url(#wave-main)"/>
+
+  <text x="500" y="100" class="name" text-anchor="middle">huxint</text>
+
+  <line x1="240" y1="230" x2="760" y2="230" class="line" stroke-width="0.6"/>
+
+  <text x="500" y="280" class="title" text-anchor="middle">虞美人</text>
+  <text x="500" y="305" class="author" text-anchor="middle">— 湖心亭</text>
+
+  <text x="500" y="355" class="verse" text-anchor="middle">少年意气随风散，独对长街晚。</text>
+  <text x="500" y="390" class="verse" text-anchor="middle">满腔心事向谁言？回首青云犹在梦中悬。</text>
+
+  <circle cx="482" cy="422" r="1.8" class="dot"/>
+  <circle cx="500" cy="422" r="1.8" class="dot"/>
+  <circle cx="518" cy="422" r="1.8" class="dot"/>
+
+  <text x="500" y="455" class="verse" text-anchor="middle">前程漫漫无人问，灯下空斟饮。</text>
+  <text x="500" y="490" class="verse" text-anchor="middle">欲将块垒寄孤鸿，飞过千山不识旧时容。</text>
+
+  <line x1="240" y1="520" x2="760" y2="520" class="line" stroke-width="0.6"/>
+</svg>
