@@ -14,19 +14,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=huxint&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=14400">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=huxint&theme=default&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=14400" height="170"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=huxint&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=14400">
+    <img src="https://github-readme-stats.vercel.app/api?username=huxint&theme=default&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=14400" height="170"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=huxint&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=14400">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=huxint&theme=default&hide_border=true&layout=compact&langs_count=8&cache_seconds=14400" height="170"/>
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=huxint&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10">
-    <img src="https://github-profile-trophy.vercel.app/?username=huxint&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=huxint&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=14400">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huxint&theme=default&hide_border=true&layout=compact&langs_count=8&cache_seconds=14400" height="170"/>
   </picture>
 </p>
 
